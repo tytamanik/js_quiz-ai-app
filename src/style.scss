@@ -59,6 +59,7 @@ button:disabled {
 		width: 100%;
 		gap: 0.5rem;
 		margin-top: 2rem;
+		display: none;
 	}
 	&__question {
 		text-align: center;
@@ -122,5 +123,6 @@ button:disabled {
 	&__progress {
 		text-align: center;
 		margin-top: 1rem;
+		display: none;
 	}
 }
