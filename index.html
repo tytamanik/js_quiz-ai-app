@@ -8,7 +8,41 @@
 	</head>
 	<body>
 		<div id="app"></div>
-		<div class="card"></div>
+		<div class="card">
+			<h2 class="card__title">Quiz AI App</h2>
+			<p class="card__description">
+				Enter the topic, select the difficulty level and test your knowledge
+				with AI-based questions
+			</p>
+			<form class="card__form">
+				<input
+					placeholder="Ex: How to get a job in IT 2025?"
+					id="topicInput"
+					type="text"
+					class="card__input"
+				/>
+				<select name="difficulty" id="difficultySelect" class="card__select">
+					<option selected value="beginner">Beginner</option>
+					<option value="intermediate">Intermediate</option>
+					<option value="advanced">Advanced</option>
+					<option value="monster">Monster</option>
+				</select>
+				<button type="submit" class="card__button">Start</button>
+			</form>
+			<div class="card__quiz">
+				<p class="card__question">Best & fastest way to learn JS in 2025?</p>
+				<ul class="card__answers">
+					<li class="card__answer card__answer--correct">
+						Build projects, google each thing and memorize based on experience &
+						faults
+					</li>
+					<li class="card__answer card__answer--wrong">
+						Not needed at all, gpt will replace all of us (cooked)
+					</li>
+					<li class="card__answer">Pray to god to land on internship</li>
+				</ul>
+			</div>
+		</div>
 		<script type="module" src="/src/main.js"></script>
 	</body>
 </html>
