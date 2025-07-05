@@ -27,20 +27,23 @@
 					<option value="advanced">Advanced</option>
 					<option value="monster">Monster</option>
 				</select>
-				<button type="submit" class="card__button">Start</button>
+				<button id="startButton" class="card__button">Start</button>
 			</form>
-			<div class="card__quiz">
-				<p class="card__question">Best & fastest way to learn JS in 2025?</p>
-				<ul class="card__answers">
-					<li class="card__answer card__answer--correct">
+			<div id="quizContainer" class="card__quiz">
+				<!-- <p class="card__question">
+					Best & fastest way to learn JS in 2025?
+				</p> -->
+				<!-- <ul id="answersContainer" class="card__answers"> -->
+					<!-- <li class="card__answer card__answer--correct">
 						Build projects, google each thing and memorize based on experience &
 						faults
 					</li>
 					<li class="card__answer card__answer--wrong">
 						Not needed at all, gpt will replace all of us (cooked)
 					</li>
-					<li class="card__answer">Pray to god to land on internship</li>
+					<li class="card__answer">answer</li> -->
 				</ul>
+				<output aria-live="polite" class="card__progress">1 / 5</output>
 			</div>
 		</div>
 		<script type="module" src="/src/main.js"></script>
