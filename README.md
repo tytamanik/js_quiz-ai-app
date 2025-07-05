@@ -21,8 +21,8 @@ A simple interactive quiz app powered by AI. Enter any topic, select difficulty,
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/ai-quiz-app.git
-   cd ai-quiz-app
+   git clone https://github.com/tytamanik/js_quiz-ai-app
+   cd js_quiz-ai-app
 2. **Install dependencies**:
    npm install
 
